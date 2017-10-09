@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="?attr/actionBarTheme"
+    android:background="?attr/colorPrimary"
+    />
+
+    <!--fitsSystemWindows attribute is set to true for a view, the view would be laid out as if the status bar and the action bar were present.-->
+    <!--thus, the UI on top gets padding enough to not be obscured by the navigation bar.-->
+    <!--if we don't set the fitSystemWindow attributes, there is not enough padding factored into consideration for the toolbar-->
